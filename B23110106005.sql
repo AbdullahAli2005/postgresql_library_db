@@ -1,4 +1,3 @@
--- Create table
 CREATE TABLE books (
     book_id SERIAL PRIMARY KEY,
     title VARCHAR(255),
@@ -9,7 +8,6 @@ CREATE TABLE books (
     publication VARCHAR(255)
 );
 
--- Insert sample data
 INSERT INTO books (title, author, year_published, isAvailable, price, publication) VALUES
 ('Whispers of Eternity', 'Lena Carter', 1999, TRUE, 499.00, 'ABC'),
 ('Iron Horizon', 'Victor Hale', 1949, TRUE, 300.00, 'XYZ'),
